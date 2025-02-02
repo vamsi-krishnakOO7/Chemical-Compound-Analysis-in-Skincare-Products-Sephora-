@@ -4,13 +4,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 def cosmetics_dataset_analysis(file_path):
-    """
-    Perform comprehensive Exploratory Data Analysis (EDA) on the cosmetics dataset.
-    
-    Returns:
-    --------
-    A dictionary containing key analysis results
-    """
     df = pd.read_csv(file_path)
     
     # 1. Dataset Size Analysis
